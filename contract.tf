@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    anypoint = {
+      source = "mulesoft-anypoint/anypoint"
+      version = "1.7.0"
+    }
+  }
+}
+
 provider "anypoint" {
  
   client_id = var.client_id             # optionally use ANYPOINT_CLIENT_ID env var
