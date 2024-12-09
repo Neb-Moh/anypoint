@@ -15,6 +15,7 @@ provider "anypoint" {
 }
 
 resource "anypoint_team" "test_team" {
-  org_id = var.root_org
+  org_id = "9372156a-34ee-468c-ad7e-84f2f66f389b"
+
   id     = "TEAM_ID"
 }
