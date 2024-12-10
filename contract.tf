@@ -9,14 +9,14 @@ terraform {
 
 provider "anypoint" {
 
-  username = "Neb_SFG"
-  password = "hiraH123"
+  # username = "Neb_SFG"
+  # password = "hiraH123"
  
-  # client_id = "27058ce4cbc14981b1a40017074f96ad"           # optionally use ANYPOINT_CLIENT_ID env var
-  # client_secret = "d55E420552344DAd89A16243983371EC"     # optionally use ANYPOINT_CLIENT_SECRET env var
+  client_id = vars.client_id          # optionally use ANYPOINT_CLIENT_ID env var
+  client_secret = vars.client_secret    # optionally use ANYPOINT_CLIENT_SECRET env var
 
-  client_id = "ad53e49ba60a45df946b010efa3178df"           # optionally use ANYPOINT_CLIENT_ID env var
-  client_secret = "6ebB3245cA994Dc68F0E9126B5698566"     # optionally use ANYPOINT_CLIENT_SECRET env var
+  # client_id = "ad53e49ba60a45df946b010efa3178df"           # optionally use ANYPOINT_CLIENT_ID env var
+  # client_secret = "6ebB3245cA994Dc68F0E9126B5698566"     # optionally use ANYPOINT_CLIENT_SECRET env var
 
 }
 
