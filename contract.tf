@@ -12,8 +12,8 @@ provider "anypoint" {
   username = "Neb_SFG"
   password = "hiraH123"
  
-  client_id = "27058ce4cbc14981b1a40017074f96ad"           # optionally use ANYPOINT_CLIENT_ID env var
-  client_secret = "d55E420552344DAd89A16243983371EC"     # optionally use ANYPOINT_CLIENT_SECRET env var
+  # client_id = "27058ce4cbc14981b1a40017074f96ad"           # optionally use ANYPOINT_CLIENT_ID env var
+  # client_secret = "d55E420552344DAd89A16243983371EC"     # optionally use ANYPOINT_CLIENT_SECRET env var
 
 }
 
