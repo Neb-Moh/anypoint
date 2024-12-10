@@ -18,12 +18,12 @@ variable "root_org" {
 }
 variable "client_id" {
   type = string
-  default = "27058ce4cbc14981b1a40017074f96ad"
+  default = "59fb0bf757a048bcae9f2932e32c9b04"
 }
 
 variable "client_secret" {
   type = string
-  default = "d55E420552344DAd89A16243983371EC"
+  default = "cADE9475d93c4115a6f2704763ac4800"
 }
 variable "owner_id" {
     type = string
