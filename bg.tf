@@ -1,7 +1,7 @@
 resource "anypoint_bg" "bg" {
   name = "Team B"
   parent_organization_id = var.root_org
-#   owner_id = var.owner_id
+  owner_id = var.owner_id
   entitlements_createsuborgs = true
   entitlements_createenvironments = true
   entitlements_globaldeployment = true
