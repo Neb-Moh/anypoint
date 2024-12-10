@@ -25,10 +25,10 @@ variable "client_secret" {
   type = string
   default = "cADE9475d93c4115a6f2704763ac4800"
 }
-variable "owner_id" {
-    type = string
-  default = "59fb0bf757a048bcae9f2932e32c9b04"
-}
+# variable "owner_id" {
+#     type = string
+#   default = "59fb0bf757a048bcae9f2932e32c9b04"
+# }
 
 # variable "access_token" {
 # }
