@@ -1,17 +1,19 @@
 variable "username" {
   type = string
+  default = "neb_sfg"
 
 }
 
 variable "password" {
   type = string
+  default = "hiraH123"
 
 }
 
 
 variable "root_org" {
   type = string
-
+  default = "9372156a-34ee-468c-ad7e-84f2f66f389b"
   
 }
 # variable "client_id" {
