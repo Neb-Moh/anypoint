@@ -1,8 +1,8 @@
-variable "username" {
-}
+# variable "username" {
+# }
 
-variable "password" {
-}
+# variable "password" {
+# }
 
 variable "client_id" {
   type = string
@@ -14,8 +14,8 @@ variable "client_secret" {
   default = "6ebB3245cA994Dc68F0E9126B5698566"
 }
 
-variable "access_token" {
-}
+# variable "access_token" {
+# }
 
 variable "cplane" {
   default = "us"
