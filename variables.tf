@@ -1,8 +1,12 @@
-# variable "username" {
-# }
+variable "username" {
+  type = string
+  default = "neb_sfg"
+}
 
-# variable "password" {
-# }
+variable "password" {
+  type = string
+  default = "hiraH123"
+}
 
 variable "client_id" {
   type = string
