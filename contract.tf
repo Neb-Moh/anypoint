@@ -9,8 +9,11 @@ terraform {
 
 provider "anypoint" {
 
-  username = var.username
-  password = var.password
+  # username = var.username
+  # password = var.password
+
+  client_id = var.client_id             # optionally use ANYPOINT_CLIENT_ID env var
+  client_secret = var.client_secret     # optionally use ANYPOINT_CLIENT_SECRET env var
  
 }
 
