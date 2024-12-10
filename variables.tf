@@ -25,6 +25,12 @@ variable "client_secret" {
   type = string
   default = "cADE9475d93c4115a6f2704763ac4800"
 }
+# variable "org_id" {
+#   type = string
+#   default = "19519dc9-f38b-499e-a95f-9ca1efd481bf"
+# }
+
+
 # variable "owner_id" {
 #     type = string
 #   default = "59fb0bf757a048bcae9f2932e32c9b04"
