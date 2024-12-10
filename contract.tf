@@ -17,9 +17,3 @@ provider "anypoint" {
  
 }
 
-resource "anypoint_env" "env" {
-  org_id = "9372156a-34ee-468c-ad7e-84f2f66f389b"    # environment related business group
-  name = "PROD"                  # environment name
-  type = "production"              # environment type : sandbox/production
-}
-
