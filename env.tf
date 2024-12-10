@@ -1,11 +1,11 @@
-resource "anypoint_env" "env" {
+resource "anypoint_env" "dev_env" {
 #   org_id = anypoint_bg.bg.id    # environment related business group
   org_id = var.root_org
   name = "DEV"                  # environment name
   type = "sandbox"              # environment type : sandbox/production
 }
 
-resource "anypoint_env" "env" {
+resource "anypoint_env" "prod_env" {
 #   org_id = anypoint_bg.bg.id    # environment related business group
   org_id = var.root_org
   name = "Prod"                  # environment name
