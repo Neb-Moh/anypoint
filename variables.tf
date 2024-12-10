@@ -33,12 +33,14 @@ variable "client_secret" {
 
 variable "owner_id" {
     type = string
-  default = "59fb0bf757a048bcae9f2932e32c9b04"
+  default = "53df28c7-b5bc-45c6-8e23-a0968650c7db"
 }
 
-# variable "access_token" {
-# }
-
+variable "team_id" {
+  type = string
+  default = "19519dc9-f38b-499e-a95f-9ca1efd481bfs"
+  
+}
 variable "cplane" {
   default = "us"
 }
