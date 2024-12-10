@@ -14,7 +14,8 @@ provider "anypoint" {
 
 }
 
-# resource "anypoint_team" "test_team" {
-#   org_id = "9372156a-34ee-468c-ad7e-84f2f66f389b"
-#   id     = "TEAM_ID"
-# }
+resource "anypoint_env" "env" {
+  org_id = "9372156a-34ee-468c-ad7e-84f2f66f389b"    # environment related business group
+  name = "DEV"                  # environment name
+  type = "sandbox"              # environment type : sandbox/production
+}
