@@ -25,7 +25,4 @@ resource "anypoint_env" "env" {
   name = "DEV"                  # environment name
   type = "sandbox"              # environment type : sandbox/production
 }
-resource "tfe_team" "test" {
-  name         = "Team A"
-  organization = "test"
-}
+
